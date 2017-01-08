@@ -1,0 +1,92 @@
+header {
+  height: 100vh;
+  width: 100%;
+  background-image: url("http://www.chicagohacks.org/img/background.jpg");
+  background-size: cover;
+}
+
+.shader {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: #03A9F4;
+  background: -webkit-linear-gradient(left top, #03A9F4, #673AB7);
+  background: -o-linear-gradient(bottom right, #03A9F4, #673AB7);
+  background: -moz-linear-gradient(bottom right, #03A9F4, #673AB7);
+  background: linear-gradient(to bottom right, #03A9F4, #673AB7);
+  opacity: 0.8;
+}
+
+.center {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  width: 550px;
+  height: 500px;
+  position: absolute;
+  left: 50%;
+  top: 50vh;
+  margin-left: -275px;
+  margin-top: -250px;
+  z-index: 3;
+}
+
+.center img {
+  width: 80%;
+  height: auto;
+}
+
+.center h2 {
+  margin: 0;
+  padding: 0;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 200%;
+  opacity: .7;
+  margin-top: 10px;
+}
+
+.center button {
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 15px 35px 15px 35px;
+  border: solid white 3px;
+  color: white;
+  margin-top: 25px;
+  font-size: 130%;
+  font-weight: bold;
+  border-radius: 10px;
+  transition: all .3s;
+}
+
+.center button:hover {
+  background-color: white;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+@media (max-width: 570px) {
+  .center {
+    width: 360px;
+    margin-left: -180px;
+    height: 450px;
+    margin-top: -225px;
+  }
+}
+
+@media (max-width: 370px) {
+  .center {
+    width: 300px;
+    margin-left: -150px;
+    height: 390px;
+    margin-top: -195px;
+  }
+
+  .center h2 {
+    font-size: 160%;
+  }
+}
