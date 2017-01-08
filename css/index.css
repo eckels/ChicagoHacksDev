@@ -69,6 +69,15 @@ header {
   color: rgba(0, 0, 0, 0.7);
 }
 
+input, textarea {
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+}
+
+input[type=submit] {
+    -webkit-border-radius:0px;
+}
+
 header input {
   outline: none;
   border: solid white 3px;
@@ -93,6 +102,7 @@ header .submit {
   color: rgba(0, 0, 0, 0.7);
   border-radius: 0 7px 7px 0;
   width: 20%;
+  margin-left: -5px;
 }
 header .submit:active {
   background-color: rgba(240, 240, 240, 0.7);
