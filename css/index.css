@@ -1,7 +1,9 @@
+/* Header Styling */
+
 header {
   height: 100vh;
   width: 100%;
-  background-image: url("http://www.chicagohacks.org/img/background.jpg");
+  background-image: url("https://eckels.github.io/ChicagoHacksDev/img/background.jpg");
   background-size: cover;
 }
 
@@ -69,60 +71,12 @@ header {
   color: rgba(0, 0, 0, 0.7);
 }
 
-input, textarea {
-  -webkit-appearance: none;
-  -webkit-border-radius: 0;
-}
-
-input[type=submit] {
-    -webkit-border-radius:0px;
-}
-
-header input {
-  outline: none;
-  border: solid white 3px;
-  background-color: transparent;
-  padding: 8px 5px 8px 5px;
-  color: white;
-  font-size: 130%;
-  margin-top: 25px;
-  border-radius: 7px 0 0 7px;
-  width: 70%;
-}
-
-header .submit {
-  margin-top: 25px;
-  padding: 8px 10px 8px 10px;
-  font-size: 130%;
-  outline: none;
-  cursor: pointer;
-  border: solid white 3px;
-  background-color: white;
-  font-weight: bold;
-  color: rgba(0, 0, 0, 0.7);
-  border-radius: 0 7px 7px 0;
-  width: 20%;
-  margin-left: -5px;
-}
-header .submit:active {
-  background-color: rgba(240, 240, 240, 0.7);
-  border-color: rgba(240, 240, 240, 0.7);
-}
-
 @media (max-width: 570px) {
   .center {
     width: 360px;
     margin-left: -180px;
     height: 450px;
     margin-top: -225px;
-  }
-
-  header input {
-    width: auto;
-  }
-
-  header .submit {
-    width: auto;
   }
 }
 
@@ -137,12 +91,263 @@ header .submit:active {
   .center h2 {
     font-size: 160%;
   }
+}
 
-  header input {
-    font-size: 100%;
+/* About Section Styling */
+
+#about {
+  margin: 0;
+  padding: 50px 20px 50px 20px;
+  background-image: url("https://eckels.github.io/ChicagoHacksDev/img/skyline.png");
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: 1050px;
+  text-align: center;
+}
+
+#about h2 {
+  color: #262626;
+  font-size: 280%;
+}
+
+#about p {
+  max-width: 1000px;
+  margin: auto;
+  color: rgba(0, 0, 0, 0.6);
+  line-height: 200%;
+  font-size: 110%;
+}
+
+#about img {
+  width: 300px;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  margin-top: 50px;
+}
+
+@media (max-width: 600px) {
+  #about {
+  background-size: 600px;
+  }
+}
+
+@media (max-width: 410px) {
+  #about img {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
   }
 
-  header .submit {
-    font-size: 100%;
+  #about h2 {
+    font-size: 200%;
   }
+}
+
+/* FAQ's Section Styling */
+
+#faq {
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 50px 10px 50px 10px;
+  text-align: center;
+  border-top: solid #d0f0fe 35px;
+}
+
+#faq h2 {
+  color: #262626;
+  font-size: 250%;
+  margin-bottom: 0;
+}
+
+#faq .desc {
+  font-size: 110%;
+  color: rgba(0, 0, 0, 0.6);
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+.faq-grid {
+  text-align: center;
+  max-width: 1350px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.faq {
+  width: 330px;
+  background-color: white;
+  border-left: solid #03A9F4 8px;
+  box-shadow: 0 1em 5em rgba(0, 0, 0, 0.10);
+  padding: 16px;
+  height: 270px;
+  margin: 20px;
+  display: inline-block;
+  overflow-x: hidden;
+}
+
+.faq h4 {
+  color: #262626;
+  font-size: 150%;
+  margin: 0;
+  text-align: left;
+  line-height: 120%;
+}
+
+.faq p {
+  color: rgba(0, 0, 0, 0.6);
+  margin: 0;
+  text-align: left;
+  margin-top: 10px;
+  line-height: 170%;
+}
+
+#faq .other {
+  background-color: white;
+  border-left: solid #03A9F4 8px;
+  box-shadow: 0 1em 5em rgba(0, 0, 0, 0.10);
+  padding: 20px;
+  margin: auto 25px auto 25px;
+  display: inline-block;
+  margin-bottom: 25px;
+}
+
+#faq .other h4 {
+  color: #262626;
+  font-size: 150%;
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+#faq .other a {
+  color: #03A9F4;
+  text-decoration: none;
+}
+
+#faq .other p {
+  color: rgba(0, 0, 0, 0.6);
+  margin-top: 10px;
+  line-height: 170%;
+}
+
+@media (max-width: 875px) {
+  .faq {
+    margin: 12px;
+    width: 300px;
+    height: 290px;
+  }
+}
+
+@media (max-width: 740px) {
+  .faq {
+    width: auto;
+    height: auto;
+    padding: 20px;
+    margin: 15px 25px 15px 25px;
+  }
+
+  #faq .other {
+    margin: auto 25px auto 25px;
+  }
+}
+
+@media (max-width: 500px) {
+  .faq {
+    margin: 15px;
+  }
+
+  #faq .other {
+    margin: auto 15px auto 15px;
+  }
+  .faq h4 {
+    font-size: 120%;
+  }
+
+  .faq p {
+    font-size: 95%;
+  }
+}
+
+/* Schedule Section Styling */
+
+#schedule {
+  margin: 0;
+  padding: 50px 20px 50px 20px;
+  text-align: center;
+}
+
+#schedule h2 {
+  color: #262626;
+  font-size: 250%;
+}
+
+.schedule-div {
+  text-align: center;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#schedule .day {
+  width: 350px;
+  display: inline-block;
+  margin: 30px;
+}
+
+#schedule .day h6 {
+  color: #262626;
+  font-size: 120%;
+  margin: 0;
+  text-align: left;
+  font-weight: normal;
+}
+
+#schedule .day .list-div {
+  text-align: left;
+}
+
+#schedule .list-item {
+  border-left: solid #03A9F4 5px;
+  padding: 5px;
+  margin: 15px 0 15px 0;
+  background-color: rgba(3, 169, 244, 0.15);
+}
+
+#schedule .list-item:after {
+  content: " ";
+  display: block;
+  height: 0;
+  clear: both;
+}
+
+.day .time {
+  text-transform: uppercase;
+  color: #262626;
+  float: left;
+  font-size: 190%;
+  font-weight: bold;
+  letter-spacing: -2px;
+  margin: 5px 15px 0 5px;
+}
+
+.day .event {
+  float: left;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+@media (max-width: 480px) {
+#schedule .day {
+  width: 100%;
+  margin: 0;
+  margin-bottom: 30px;
+}
+}
+
+/* Sponsor Section Styling */
+
+#sponsors {
+  margin: 0;
+  padding: 50px 20px 50px 20px;
+  text-align: center;
+  background-color: #03A9F4;
 }
