@@ -308,7 +308,8 @@ header {
 
 #schedule .list-item {
   border-left: solid #03A9F4 5px;
-  padding: 5px;
+  padding: 0;
+  padding-left: 4px;
   margin: 15px 0 15px 0;
   background-color: rgba(3, 169, 244, 0.15);
 }
@@ -324,10 +325,10 @@ header {
   text-transform: uppercase;
   color: #262626;
   float: left;
-  font-size: 190%;
+  font-size: 180%;
   font-weight: bold;
   letter-spacing: -2px;
-  margin: 5px 15px 0 5px;
+  margin: 7px 15px 0 5px;
 }
 
 .day .event {
