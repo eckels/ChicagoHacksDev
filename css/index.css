@@ -371,3 +371,8 @@ header {
   text-align: center;
   background-color: #03A9F4;
 }
+
+.templogo {
+  height: 45px;
+  width: auto;
+}
