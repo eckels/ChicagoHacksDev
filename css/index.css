@@ -114,6 +114,13 @@ header {
   font-size: 280%;
 }
 
+#about h3 {
+  font-size: 140%;
+  color: #262626;
+  margin-bottom: 0;
+  margin-top: 18px;
+}
+
 #about p {
   max-width: 1000px;
   margin: auto;
@@ -341,20 +348,20 @@ header {
 }
 
 @media (max-width: 480px) {
-#schedule .day {
-  width: 100%;
-  margin: 0;
-  margin-bottom: 30px;
-}
+  #schedule .day {
+    width: 100%;
+    margin: 0;
+    margin-bottom: 30px;
+  }
 
-.day .time {
-  font-size: 150%;
-  margin: 8px 12px 0 4px;
-}
+  .day .time {
+    font-size: 150%;
+    margin: 8px 12px 0 4px;
+  }
 
-.day .event {
-  font-size: 90%;
-}
+  .day .event {
+    font-size: 90%;
+  }
 }
 /* Sponsor Section Styling */
 
