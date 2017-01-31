@@ -112,6 +112,7 @@ header {
 #about h2 {
   color: #262626;
   font-size: 280%;
+  margin-top: 10px;
 }
 
 #about h3 {
@@ -169,6 +170,7 @@ header {
   color: #262626;
   font-size: 250%;
   margin-bottom: 0;
+  margin-top: 0;
 }
 
 #faq .desc {
@@ -291,6 +293,7 @@ header {
 #schedule h2 {
   color: white;
   font-size: 250%;
+  margin-top: 0;
 }
 
 .schedule-div {
@@ -376,6 +379,7 @@ header {
 #sponsors h2 {
   color: #262626;
   font-size: 250%;
+  margin-top: 0;
 }
 
 #sponsors .sponsor-div {
@@ -413,6 +417,7 @@ header {
 #prospectus h3 {
   color: #262626;
   font-size: 180%;
+  margin-top: 0;
 }
 
 #prospectus button {
@@ -435,7 +440,7 @@ header {
 /* Team Section Styling */
 
 #team {
-  padding: 50px 20px 50px 20px;
+  padding: 50px 20px 15px 20px;
   background-color: #03A9F4;
   text-align: center;
 }
@@ -443,6 +448,7 @@ header {
 #team h3 {
   color: white;
   font-size: 250%;
+  margin-top: 0px;
 }
 
 #team .team-div {
@@ -452,14 +458,14 @@ header {
 
 .team-div .person {
   display: inline-block;
-  width: 270px;
-  margin: 20px;
+  width: 240px;
+  margin: 10px 20px 10px 20px;
 }
 
 .team-div img {
-  height: 190px;
-  width: 190px;
-  border-radius: 100px;
+  height: 170px;
+  width: 170px;
+  border-radius: 95px;
   border: solid #0398db 10px;
 }
 
