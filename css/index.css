@@ -197,6 +197,7 @@ header {
   margin: 20px;
   display: inline-block;
   overflow: hidden;
+  -webkit-overflow: hidden;
 }
 
 .faq h4 {
