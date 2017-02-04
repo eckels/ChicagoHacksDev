@@ -201,6 +201,30 @@ header {
   overflow: hidden;
 }
 
+@media (max-width: 1030px) and (min-width: 750px) {
+.faq-grid {
+  align-items: center;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  -webkit-box-align: center;
+  -webkit-box-pack: justify;
+  max-width: 900px;
+  margin: auto;
+  }
+
+  .faq {
+    display: block;
+  }
+}
+
+@media (max-width: 1030px) and (min-width: 1020px) {
+  .faq-grid {
+    margin-left: 90px;
+  }
+}
+
 .faq h4 {
   color: #262626;
   font-size: 150%;
@@ -484,6 +508,12 @@ footer {
   background-color: #0398db;
   padding: 12px 20px 12px 20px;
   text-align: center;
+}
+
+footer .pdf {
+  color: white;
+  text-decoration: underline;
+  padding-bottom: -5px;
 }
 
 footer p {
