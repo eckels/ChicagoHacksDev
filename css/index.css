@@ -185,10 +185,12 @@ header {
   max-width: 1350px;
   margin-left: auto;
   margin-right: auto;
+  min-width: 150px;
 }
 
 .faq {
   width: 330px;
+  max-width: 330px;
   background-color: white;
   border-left: solid #03A9F4 8px;
   box-shadow: 0 1em 5em rgba(0, 0, 0, 0.10);
@@ -197,7 +199,6 @@ header {
   margin: 20px;
   display: inline-block;
   overflow: hidden;
-  -webkit-overflow: hidden;
 }
 
 .faq h4 {
