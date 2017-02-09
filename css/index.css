@@ -35,6 +35,11 @@ header {
   background-size: cover;
 }
 
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
 .shader {
   position: absolute;
   margin: 0;
