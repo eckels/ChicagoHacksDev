@@ -72,10 +72,13 @@ header hr {
 
 .content h2 {
   color: #262626;
+  margin-bottom: -5px;
+  margin-top: 30px;
 }
 
 .content p {
   color: rgba(0, 0, 0, 0.6);
+
 }
 
 .content ul {
@@ -99,6 +102,7 @@ header hr {
   border-bottom: solid #0275a8 5px;
   transition: all .3s;
   margin: 0;
+  margin-top: 15px;
 }
 
 .content button:hover {
