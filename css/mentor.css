@@ -1,0 +1,27 @@
+#mlh-trust-badge {
+  display: block;
+  max-width: 100px;
+  min-width: 60px;
+  position: absolute;
+  right: 50px;
+  top: 0;
+  width: 10%;
+  z-index: 5;
+}
+
+@media (max-width: 420px) {
+  #mlh-trust-badge {
+    right: 20px;
+  }
+}
+
+@media (max-width: 330px) {
+  #mlh-trust-badge {
+    right: 10px;
+    width: 7%;
+  }
+}
+
+header {
+  background-image: url("http://chicagohacks.tech/img/splash.jpg");
+}
