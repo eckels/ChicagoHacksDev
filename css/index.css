@@ -413,6 +413,11 @@ h1 {
   color: rgba(0, 0, 0, 0.6);
 }
 
+.extra {
+  color: white;
+  font-size: 105%;
+}
+
 @media (max-width: 480px) {
   #schedule .day {
     width: 100%;
