@@ -513,6 +513,11 @@ h1 {
   padding: 50px 20px 15px 20px;
   background-color: #03A9F4;
   text-align: center;
+  text-decoration: none;
+}
+
+#team a {
+  text-decoration: none;
 }
 
 #team h3 {
@@ -544,6 +549,16 @@ h1 {
   font-size: 140%;
   font-weight: normal;
   margin-top: 5px;
+  margin-bottom: 0;
+}
+
+.team-div p {
+  text-decoration: none;
+  color: white;
+  opacity: .8;
+  font-size: 90%;
+  margin: 0;
+  margin-bottom: 25px;
 }
 
 /* Footer Section Styling */
