@@ -287,32 +287,9 @@ h1 {
   line-height: 170%;
 }
 
-#faq .other {
-  background-color: white;
-  border-left: solid #03A9F4 8px;
-  box-shadow: 0 1em 5em rgba(0, 0, 0, 0.10);
-  padding: 20px;
-  margin: auto 25px auto 25px;
-  display: inline-block;
-  margin-bottom: 25px;
-}
-
-#faq .other h4 {
-  color: #262626;
-  font-size: 150%;
-  margin: 0;
-  margin-bottom: 15px;
-}
-
 #faq a {
   color: #03A9F4;
   text-decoration: none;
-}
-
-#faq .other p {
-  color: rgba(0, 0, 0, 0.6);
-  margin-top: 10px;
-  line-height: 170%;
 }
 
 @media (max-width: 875px) {
@@ -330,10 +307,6 @@ h1 {
     padding: 20px;
     margin: 15px 25px 15px 25px;
   }
-
-  #faq .other {
-    margin: auto 25px auto 25px;
-  }
 }
 
 @media (max-width: 500px) {
@@ -342,9 +315,6 @@ h1 {
     margin-bottom: 0;
   }
 
-  #faq .other {
-    margin: auto 15px auto 15px;
-  }
   .faq h4 {
     font-size: 120%;
   }
@@ -380,7 +350,6 @@ h1 {
   width: 350px;
   display: inline-block;
   margin: 30px;
-  cursor: pointer;
 }
 
 #schedule .day h6 {
@@ -403,6 +372,10 @@ h1 {
   background-color: rgba(255, 255, 255, 0.6);
 }
 
+.red-border {
+  border-left: solid #F44336 5px !important;
+}
+
 #schedule .list-item:after {
   content: " ";
   display: block;
@@ -418,6 +391,12 @@ h1 {
   font-weight: bold;
   letter-spacing: -2px;
   margin: 7px 15px 0 5px;
+}
+
+sub {
+  vertical-align: baseline;
+  position: relative;
+  top: 0px;
 }
 
 .day .event {
@@ -444,13 +423,14 @@ h1 {
 
   .day .event {
     font-size: 90%;
+    letter-spacing: -1px;
   }
 }
 /* Sponsor Section Styling */
 
 #sponsors {
   margin: 0;
-  padding: 50px 20px 50px 20px;
+  padding: 50px 20px 10px 20px;
   text-align: center;
   background-color: white;
 }
@@ -478,12 +458,20 @@ h1 {
   box-sizing: border-box;
 }
 
-#sponsors .sponsor {
+#sponsors .sponsor-big {
   box-sizing: border-box;
   display: block;
   width: 250px;
   height: auto;
-  margin: 30px;
+  margin: 25px;
+}
+
+#sponsors .sponsor-small {
+  box-sizing: border-box;
+  display: block;
+  width: 170px;
+  height: auto;
+  margin: 25px;
 }
 
 /* Prospectus Section Styling */
