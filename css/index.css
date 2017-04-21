@@ -435,10 +435,15 @@ sub {
   background-color: white;
 }
 
+#sponsors hr {
+  width: 40%;
+}
+
 #sponsors h2 {
   color: #262626;
   font-size: 250%;
   margin-top: 0;
+  margin-bottom: 5px;
 }
 
 #sponsors .sponsor-div {
@@ -456,6 +461,14 @@ sub {
 
 #sponsors a {
   box-sizing: border-box;
+}
+
+#sponsors .partner {
+  box-sizing: border-box;
+  display: block;
+  width: 350px;
+  height: auto;
+  margin: 25px;
 }
 
 #sponsors .sponsor-big {
@@ -480,6 +493,10 @@ sub {
     padding-right: 0;
   }
 
+  #sponsors .partner {
+    max-width: 300px;
+  }
+
   #sponsors .sponsor-small {
     width: 160px;
     margin: 10px;
@@ -496,6 +513,9 @@ sub {
     width: 130px;
     margin: 10px;
     display: block;
+  }
+  #sponsors .partner {
+    max-width: 260px;
   }
 }
 
