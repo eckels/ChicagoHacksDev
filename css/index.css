@@ -553,6 +553,15 @@ sub {
   background-color: #2ebcfc;
 }
 
+#prospectus .closed {
+  background-color: #646464;
+  border-color: #474747;
+}
+
+#prospectus .closed:hover {
+  background-color: #787878;
+}
+
 /* Team Section Styling */
 
 #team {
