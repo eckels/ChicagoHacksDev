@@ -99,21 +99,3 @@ body {
         height: 20px;
     }
 }
-
-.tingle-btn {
-  min-width: 120px;
-  border-radius: 50px;
-}
-
-.tingle-modal-box__footer {
-  text-align: center;
-}
-
-.tingle-modal-box__content strong {
-  color: #5299d3;
-}
-
-.tingle-modal-box__content p {
-  line-height: 2;
-  font-size: 1.6rem;
-}
