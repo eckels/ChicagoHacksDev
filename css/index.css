@@ -31,7 +31,7 @@ html {
 header {
   height: 100vh;
   width: 100%;
-  background-image: url("http://chicagohacks.tech/img/bround.jpg");
+  background-image: url("../img/bround.jpg");
   background-size: cover;
   position: fixed;
   z-index: 0;
